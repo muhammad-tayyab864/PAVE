@@ -1,2 +1,13 @@
 # PAVE
 Power-aware Visual Contrast Enhancement
+This is a resource list for image contrast enhancement, including datasets, methods/codes/papers, metrics and so on.
+Please see the evl.ipynb
+**Introduction**
+Organic Light-Emitting Diode (OLED) displays play a significant role in display technology used in various consumer electronics, such as televisions and smartphones. The shift towards more mobile-centric lifestyles has amplified the demand for longer battery life, elevating power efficiency as a paramount concern in real-time applications. The most common display LCD reduces power through pixel contrast adjustment and backlight dimming. Unlike traditional LCDs, the power consumption of OLEDs is directly related to their brightness, with brighter pixels consuming more power. This study introduces a novel power-aware visual enhancement (PAVE) method designed to efficiently process detailed images and dynamically minimize power consumption while preserving the quality of salient regions.
+**Datasets**
+The Pave model is trained on the CAT2000 image dataset. Three additional datasets are used for the evaluation.
+***Link:***
+http://saliency.mit.edu/datasets.html
+https://www.kaggle.com/datasets/balraj98/berkeley-segmentation-dataset-500-bsds500
+https://www.kaggle.com/datasets/imsparsh/flowers-dataset
+https://live.ece.utexas.edu/research/Quality/index.htm
